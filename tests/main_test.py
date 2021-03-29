@@ -1,5 +1,5 @@
 import unittest
-from project.main import greeting
+from project import greeting
 
 
 class TestGreeting(unittest.TestCase):
