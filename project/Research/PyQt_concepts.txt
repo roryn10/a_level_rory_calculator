@@ -1,0 +1,17 @@
+Widgets: -'QWidget' is the base class for all user interface objects (widgets)
+         - Rectangular shaped graphical components that you place on your application's window to construct the GUI
+         - A widget contains a series of attributes and methods that allow you to model their appearance and behavior
+         - Can receive mouse clicks, keypresses and other events from the user, window system or elsewhere
+         - Common widgets: - Buttons      :  'QPushButton'
+                           - Labels       :  'QLabel'
+                           - Line edits   :  'QLineEdit'    : Used to enter data in plaintext. Perfect for entering the functions to be mapped
+                           - Combo boxes  :  'QComboBox'    : Basically a dropdown box, useful for saving space
+                           - Radio buttons:  'QRadioButton' : Used when the user has to select one option from many. Only one option can be selected at a given time
+
+
+Layout managers
+Dialogs
+Main Windows
+Applications
+Event Loops
+Signals and slots
