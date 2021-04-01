@@ -9,7 +9,17 @@ Widgets: -'QWidget' is the base class for all user interface objects (widgets)
                            - Radio buttons:  'QRadioButton' : Used when the user has to select one option from many. Only one option can be selected at a given time
 
 
-Layout managers
+Layout managers: - Classes that allow you to size and position your widgets on an application form
+                 - Automatically adapt to resize events and content changes
+                 - This all means that widgets in a layout are automatically resized whenever the form is resized
+                 - 4 Basic layout managers: - 'QHboxLayout' : Arranges widgets horizontally from left to right
+                                            - 'QVBoxLayout' :
+
+
+
+
+
+
 Dialogs
 Main Windows
 Applications
