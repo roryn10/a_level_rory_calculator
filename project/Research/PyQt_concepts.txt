@@ -13,7 +13,11 @@ Layout managers: - Classes that allow you to size and position your widgets on a
                  - Automatically adapt to resize events and content changes
                  - This all means that widgets in a layout are automatically resized whenever the form is resized
                  - 4 Basic layout managers: - 'QHboxLayout' : Arranges widgets horizontally from left to right
-                                            - 'QVBoxLayout' :
+                                            - 'QVBoxLayout' : Arranges widgets vertically from top to bottom
+                                            - 'QGridLayout' : Arranges widgets in a grid starting at the top left as (0,0) finishing in the bottom right as (n, n).
+                                                -> E.g. layout.addWidget(QPushButton('First button'), 0, 0, 2, 3)  Would create a button in position (0,0) with rowSpan of 2 and columnSpan of 3
+                                            - 'QFormLayout' : Arranges widgets in a two-column layout. The first column usually consists of labels whilst the second column usually consists of field widgets
+                                                -> Perfect for creating forms to be filled in
 
 
 
