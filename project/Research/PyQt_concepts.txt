@@ -24,8 +24,14 @@ Layout managers: - Classes that allow you to size and position your widgets on a
 
 
 
-Dialogs
+Dialogs: - Always a top level widget widget
+         - Not really sure
+
+
+
 Main Windows
+
+
 Applications
 Event Loops
 Signals and slots
