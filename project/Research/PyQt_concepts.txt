@@ -1,7 +1,7 @@
 Widgets: -'QWidget' is the base class for all user interface objects (widgets)
          - Rectangular shaped graphical components that you place on your application's window to construct the GUI
          - A widget contains a series of attributes and methods that allow you to model their appearance and behavior
-         - Can receive mouse clicks, keypresses and other events from the user, window system or elsewhere
+         - Can receive mouse clicks, key-presses and other events from the user, window system or elsewhere
          - Common widgets: - Buttons      :  'QPushButton'
                            - Labels       :  'QLabel'
                            - Line edits   :  'QLineEdit'    : Used to enter data in plaintext. Perfect for entering the functions to be mapped
@@ -12,7 +12,7 @@ Widgets: -'QWidget' is the base class for all user interface objects (widgets)
 Layout managers: - Classes that allow you to size and position your widgets on an application form
                  - Automatically adapt to resize events and content changes
                  - This all means that widgets in a layout are automatically resized whenever the form is resized
-                 - 4 Basic layout managers: - 'QHboxLayout' : Arranges widgets horizontally from left to right
+                 - 4 Basic layout managers: - 'QHBoxLayout' : Arranges widgets horizontally from left to right
                                             - 'QVBoxLayout' : Arranges widgets vertically from top to bottom
                                             - 'QGridLayout' : Arranges widgets in a grid starting at the top left as (0,0) finishing in the bottom right as (n, n).
                                                 -> E.g. layout.addWidget(QPushButton('First button'), 0, 0, 2, 3)  Would create a button in position (0,0) with rowSpan of 2 and columnSpan of 3
@@ -25,11 +25,13 @@ Layout managers: - Classes that allow you to size and position your widgets on a
 
 
 Dialogs: - Always a top level widget widget
-         - Not really sure
+         - Used to accomplish secondary actions that depend on user input
 
 
 
-Main Windows
+Main Window: - The 'main window' of your application
+             - Will have a menu bar, some toolbars, a status bar, a central widget (the GUI's main element) and several dock widgets (small movable windows placed around the central widget)
+             - An instance of 'QMainWindow' is considered the main window
 
 
 Applications
